@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.col-sm-3 a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color: rgba(153, 225, 216, 0.3);
+}
+
+div .login{
+ 
+    
+    background-color: rgba(217, 217, 217, 1);
+    padding-right: 37px;
+    padding-left: 23px;
+    padding-bottom: 17px;
+    padding-top: 19px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+h1{
+    color:rgba(153, 225, 216, 1);
+    text-shadow: 
+        -1px -1px 0 black,  
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+    justify-content: center;
+    align-items: center;
+}
+.UserName-Input{
+    border-radius: 10px;
+    margin: 10px;
+}
+.PassWork-Input{
+    border-radius: 10px; 
+    margin: 10px;
+}
+.LogIn-Button{
+    margin-left: auto;
+    border-radius: 10px;
+    background-color:rgba(153, 225, 216, 1) ;
+}
+.header{
+   
+    height: 41px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+.menu{
+    flex: 2;
+    display: flex;
+    font-family: Helvetica, sans-serif;
+    background: #00eeff;
+    width: 67px;
+    border: 1px solid black;
+}
+
+.menu > li{
+    padding: 0 12px;
+    position: relative;
+}
+.menu > li:hover .main-menu{
+    visibility: visible;
+    top: 30px;
+
+}
+.menu > li:hover{
+    transition-duration:0.9s;
+    color: #000000;
+    width: 150px;
+}
+.main-menu{
+    position: absolute;
+    width: 250px;
+    border: 1px solid #000000;
+    padding: 5px 0 10px 20px;
+    visibility: hidden;
+    top: 50px;
+    transition: 0.2s;
+    z-index: 1;
+    background: -webkit-linear-gradient(to right, #00eeff, #f5af19); 
+    background: linear-gradient(to right, #00eeff, #f5af19); 
+}
+.main-menu > li:hover{
+    background-color: rgba(153, 225, 216, 1) ;
+    color: #000000;
+}
+.Logout-buttom{
+    background-color: rgba(153, 225, 216, 1);
+}
+.LoGo{
+    text-align: center;
+    font-family: Italianno;
+    font-size: 20px;
+}
+.customer-information{
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+    border: 1px solid #000000;
+    
+}
+.iten-customer-information{
+    border: 1px solid #000000;
+    padding: 10px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.thong-tin-hop-dong{
+    text-align: center;
+    background-color: white;
+    
+    border: 1px solid #000000;
+    /* width: 788.6px;
+    text-align: center; */
+}
+p{
+    text-align: start;
+    margin-right:5px ;
+}
+.identification-item{
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+}
+.citizen-identification{
+    border: 1px solid #000000;
+    padding: 10px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.noi-cap{
+    display: flex; 
+    align-items: center;
+    align-items: flex-start
+}
+.margin-right{
+    margin-right: 20px;
+}
+.detail{
+    display: flex; 
+    align-items: center;
+    align-items: flex-start;
+
+}
+.borders{
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.add-button {
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgba(153, 225, 216, 1);
+    margin-left: auto;
+    margin-top: 10px;
+}
+.Temporary-contract-value{
+    display: flex; 
+    justify-content: flex-end;
+}
+.buttons{
+    
+    display: flex;
+    /* justify-content: center; */
+}
+.btt{
+    background-color: rgba(153, 225, 216, 1);
+    margin: 5px;
+    border-radius: 10px;
+}
+#toggle {
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+}
+#toggle .fa-bars{
+    background-color: #00eeff;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid #000000;
+}
+.text-center{
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+}
+.text-start{
+    display: flex; 
+    justify-content: start; 
+    align-items: start;
+ }
+nav{
+    display: none;
+    background: -webkit-linear-gradient(to right, #00eeff, #f5af19); 
+    background: linear-gradient(to right, #00eeff, #f5af19); 
+    border: 1px solid #000000;
+}
+li{
+    padding: 2px;
+    list-style: none;
+}
+nav #main-menu li:hover a{
+    background-color: rgb(73, 242, 254);
+    color: #000000;
+    padding: 5px;
+}
+
